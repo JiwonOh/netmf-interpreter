@@ -15,7 +15,6 @@
 #undef  DEBUG_TRACE
 #define DEBUG_TRACE (TRACE_ALWAYS)
 
-
 #ifndef HAL_REDUCESIZE
 const size_t ConfigLengthCookie = offsetof( ConfigurationSector, FirstConfigBlock );
 #endif

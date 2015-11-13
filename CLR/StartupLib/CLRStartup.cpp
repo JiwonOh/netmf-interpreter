@@ -629,6 +629,7 @@ bool ClrIsDebuggerStopped()
 
 #endif
 
+
 void ClrStartup( CLR_SETTINGS params )
 {
     NATIVE_PROFILE_CLR_STARTUP();

@@ -34,7 +34,6 @@ void HAL_CONTINUATION::InitializeList()
 void HAL_CONTINUATION::Enqueue()
 {
     NATIVE_PROFILE_PAL_ASYNC_PROC_CALL();
-    
     if(this->GetEntryPoint() != NULL)
     {
         GLOBAL_LOCK(irq);
